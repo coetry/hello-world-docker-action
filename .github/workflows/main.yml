@@ -6,7 +6,7 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v1
-    - ues: ./
+    - uses: ./
     - name: Hello world action step
       id: hello
       uses: coetry/hello-world-docker-action@master
