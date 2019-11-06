@@ -9,7 +9,7 @@ jobs:
     - uses: ./
     - name: Hello world action step
       id: hello
-      uses: coetry/hello-world-docker-action@master
+      uses: actions/hello-world-docker-action@v1
       with:
         who-to-greet: '@coetry'
     - name: Get the output time
